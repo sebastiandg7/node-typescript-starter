@@ -39,14 +39,20 @@ npm run start
 npm run test
 ```
 
+## Build application
+
+```sh
+npm run build
+```
+
 ## Author
 
 👤 **Sebastian Duque G**
 
-* Website: https://sebastiandg7.github.io
-* Twitter: [@sebastiandg7](https://twitter.com/sebastiandg7)
-* Github: [@sebastiandg7](https://github.com/sebastiandg7)
-* LinkedIn: [@sebastian.duque.gutierrez](https://linkedin.com/in/sebastian.duque.gutierrez)
+- Website: https://sebastiandg7.github.io
+- Twitter: [@sebastiandg7](https://twitter.com/sebastiandg7)
+- Github: [@sebastiandg7](https://github.com/sebastiandg7)
+- LinkedIn: [@sebastian.duque.gutierrez](https://linkedin.com/in/sebastian.duque.gutierrez)
 
 ## 🤝 Contributing
 
@@ -65,5 +71,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2019 [Sebastian Duque G](https://github.com/sebastiandg7).<br />
 This project is [Apache 2.0](https://github.com/sebastiandg7/node-typescript-starter/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
