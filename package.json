@@ -1,0 +1,40 @@
+{
+  "name": "node-typescript-starter",
+  "version": "1.0.0",
+  "description": "NodeJS with TypeScript application starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --transpileOnly ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:fix": "pretty-quick --staged",
+    "lint": "tslint 'src/**/*.ts'",
+    "precommit": "run-s format:fix lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiandg7/node-typescript-starter.git"
+  },
+  "keywords": [
+    "node",
+    "ts-node",
+    "typescript"
+  ],
+  "author": "Sebastian Duque G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastiandg7/node-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/sebastiandg7/node-typescript-starter#readme",
+  "devDependencies": {
+    "husky": "^3.0.9",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
